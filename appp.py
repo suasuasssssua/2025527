@@ -12,18 +12,6 @@ import os
 st.set_page_config(layout="wide")
 st.title("🌃 대한민국 야간 조도 지도 (2024 VIIRS + Folium 지도 시각화)")
 
-import streamlit as st
-import rasterio
-import numpy as np
-import folium
-from folium import plugins
-from streamlit_folium import st_folium
-from rasterio.windows import from_bounds
-from shapely.geometry import box
-
-st.set_page_config(layout="wide")
-st.title("🌃 대한민국 야간 조도 지도 (2024 VIIRS + Folium 지도 시각화)")
-
 # 👉 업로드로 파일 받기
 uploaded_file = st.file_uploader("🎯 GeoTIFF (.tif) 파일을 업로드하세요", type=["tif"])
 
