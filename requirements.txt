@@ -4,3 +4,4 @@ yfinance
 streamlit_folium
 pip install streamlit rasterio geopandas matplotlib
 pip install streamlit rasterio folium branca numpy
+pip install rasterio folium streamlit streamlit-folium branca numpy shapely
