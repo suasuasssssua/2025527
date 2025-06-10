@@ -3,3 +3,4 @@ folium
 yfinance
 streamlit_folium
 pip install streamlit rasterio geopandas matplotlib
+pip install streamlit rasterio folium branca numpy
